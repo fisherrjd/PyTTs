@@ -6,7 +6,7 @@ import pyaudio
 CHUNK = 1024
 FORMAT = pyaudio.paInt16
 CHANNELS = 1 if sys.platform == 'darwin' else 2
-RATE = 44100pip
+RATE = 44100
 RECORD_SECONDS = 5
 
 with wave.open('recording.wav', 'wb') as wf:
