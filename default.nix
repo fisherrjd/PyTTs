@@ -7,7 +7,7 @@
     { }
 }:
 let
-  name = "pytts";
+  name = "PyTTs";
 
   tools = with pkgs; {
     cli = [
